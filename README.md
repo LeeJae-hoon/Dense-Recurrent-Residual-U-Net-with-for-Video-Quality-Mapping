@@ -6,29 +6,33 @@ Python 3.7.1\
 Pytorch 1.0.1\
 TensorboardX (for visualization of loss, PSNR and SSIM)
 
-# Train/Test
+# Usage
 Codes for train and test are in train_test.py together.
 
-If you want to start a new training,\
+## Training
+If you want to start training,
 <pre>
 <code>
 python train_test.py --cuda --restart
 </code>
 </pre>
 
-Or you can continue the previous training,\
+Or you can continue training,
 <pre>
 <code>
 train_test.py --cuda
 </code>
 </pre>
 
-If you want to test your model,\
+## Testing
+If you want to test a model,
 <pre>
 <code>
 train_test.py --cuda --eval True
 </code>
 </pre>
+
+### Notes
 
 # References
 [1] M. Tassano, J. Delon, and T. Veit, "FastDVDnet: Towards Real-Time Video Denoising Without Explicit Motion Estimation," arXiv preprint arXiv:1907.01361, 2019.\
