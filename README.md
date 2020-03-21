@@ -10,9 +10,9 @@ TensorboardX (for visualization of loss, PSNR and SSIM)
 Codes for train and test are in train_test.py together.
 
 If you want to start a new training,\
-'''
+'''  
 python train_test.py --cuda --restart
-'''
+'''  
 
 Or you can continue the previous training,\
 ''' 
