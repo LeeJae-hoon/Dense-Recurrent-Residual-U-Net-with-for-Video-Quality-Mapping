@@ -33,6 +33,10 @@ train_test.py --cuda --eval True
 </pre>
 
 ### Notes
+- The path to the corrupted training dataset has to be stored at the argument "training_source".
+- The path to the ground truth training datset has to be store at the argument "training_target".
+- Likewise, the path to other dataset such as validation dataset or test dataset has to be stored at the matching argument.
+- Reset the "save_path" argument. It keeps the path of the directory where you want to save test results.
 
 # References
 [1] M. Tassano, J. Delon, and T. Veit, "FastDVDnet: Towards Real-Time Video Denoising Without Explicit Motion Estimation," arXiv preprint arXiv:1907.01361, 2019.\
