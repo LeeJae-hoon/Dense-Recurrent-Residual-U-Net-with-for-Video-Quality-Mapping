@@ -49,4 +49,4 @@ train_test.py --cuda --eval True
 Thanks for [z-bingo](https://github.com/z-bingo/FastDVDNet), [m-tassano](https://github.com/m-tassano/fastdvdnet) and [LeeJunHyun](https://github.com/LeeJunHyun/Image_Segmentation) for sharing their codes.
 
 # Contact
-If you have any question, please contact jh0729jh@naver.com
+If you have any question, please contact dlwogns0729@gmail.com
