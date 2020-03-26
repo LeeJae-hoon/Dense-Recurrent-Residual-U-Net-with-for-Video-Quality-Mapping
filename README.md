@@ -10,38 +10,33 @@ TensorboardX (for visualization of loss, PSNR and SSIM)
 Codes for train and test are in train_test.py together.
 
 ## Training
-If you want to start training,
+If you want to train your own model,
 <pre>
 <code>
-python train_test.py --cuda --restart
+python train.py
 </code>
 </pre>
 
-Or you can continue training,
-<pre>
-<code>
-train_test.py --cuda
-</code>
-</pre>
+### Notes
+- The path to the corrupted training dataset has to be stored at the argument "training_source".
+- The path to the ground truth training datset has to be store at the argument "training_target".
+- Likewise, the path to other dataset such as validation source/ target has to be stored at the matching argument.
+- If you want to continue the training, set 'restart' argument to 'True' and put the pretrained model in the folder named 'models'.
 
 ## Testing
 If you want to test a model,
 <pre>
 <code>
-train_test.py --cuda --eval True
+python test.py
 </code>
 </pre>
 
-## Pretrained Model
-You can download my pretrained model from the link below.\
-[Download](https://drive.google.com/open?id=1qJh1lgADqUO8PImGfndj71ZJE9aM5_g2) \
-Please put the pretrained model in the folder named 'models'.
-
 ### Notes
-- The path to the corrupted training dataset has to be stored at the argument "training_source".
-- The path to the ground truth training datset has to be store at the argument "training_target".
-- Likewise, the path to other dataset such as validation dataset or test dataset has to be stored at the matching argument.
-- Reset the "save_path" argument. It keeps the path of the directory where you want to save test results.
+- If you want to use my pretrained model, click [here](https://drive.google.com/open?id=1qJh1lgADqUO8PImGfndj71ZJE9aM5_g2) to download.
+- Put the pretrained model in the folder named 'models'.
+- The path to the test dataset has to be stored at the "test_source" argument. 
+- Check the "save_path" argument. It keeps the path of the directory where you want to save test results.
+
 
 # References
 [1] M. Tassano, J. Delon, and T. Veit, "FastDVDnet: Towards Real-Time Video Denoising Without Explicit Motion Estimation," arXiv preprint arXiv:1907.01361, 2019.\
