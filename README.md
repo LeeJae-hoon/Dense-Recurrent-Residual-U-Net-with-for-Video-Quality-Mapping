@@ -32,6 +32,10 @@ train_test.py --cuda --eval True
 </code>
 </pre>
 
+## Pretrained Model
+You can download my pretrained model from the link below.\
+https://drive.google.com/open?id=1qJh1lgADqUO8PImGfndj71ZJE9aM5_g2
+
 ### Notes
 - The path to the corrupted training dataset has to be stored at the argument "training_source".
 - The path to the ground truth training datset has to be store at the argument "training_target".
