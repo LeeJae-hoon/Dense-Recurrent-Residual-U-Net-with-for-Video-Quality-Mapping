@@ -34,7 +34,8 @@ train_test.py --cuda --eval True
 
 ## Pretrained Model
 You can download my pretrained model from the link below.\
-https://drive.google.com/open?id=1qJh1lgADqUO8PImGfndj71ZJE9aM5_g2
+https://drive.google.com/open?id=1qJh1lgADqUO8PImGfndj71ZJE9aM5_g2\
+Please place the pretrained model in the folder named 'models'.
 
 ### Notes
 - The path to the corrupted training dataset has to be stored at the argument "training_source".
