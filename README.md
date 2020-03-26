@@ -6,10 +6,7 @@ Python 3.7.1\
 Pytorch 1.0.1\
 TensorboardX (for visualization of loss, PSNR and SSIM)
 
-# Usage
-Codes for train and test are in train_test.py together.
-
-## Training
+# Training
 If you want to train your own model,
 <pre>
 <code>
@@ -23,7 +20,7 @@ python train.py
 - Likewise, the path to other dataset such as validation source/ target has to be stored at the matching argument.
 - If you want to continue the training, set 'restart' argument to 'True' and put the pretrained model in the folder named 'models'.
 
-## Testing
+# Testing
 If you want to test a model,
 <pre>
 <code>
@@ -48,4 +45,4 @@ python test.py
 Thanks for [z-bingo](https://github.com/z-bingo/FastDVDNet), [m-tassano](https://github.com/m-tassano/fastdvdnet) and [LeeJunHyun](https://github.com/LeeJunHyun/Image_Segmentation) for sharing their codes.
 
 # Contact
-If you have any question, please contact dlwogns0729@gmail.com
+If you have any question, feel free to contact dlwogns0729@gmail.com
