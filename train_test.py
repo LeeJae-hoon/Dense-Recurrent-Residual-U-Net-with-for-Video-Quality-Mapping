@@ -14,6 +14,7 @@ from torchvision.transforms import transforms
 import matplotlib.pyplot as plt
 import math
 from PIL import Image
+import time
 
 
 def args_parser():
